@@ -1,1 +1,1 @@
-Tis project is a website created using html css an js.
+This project is a website created using html,css and js.
