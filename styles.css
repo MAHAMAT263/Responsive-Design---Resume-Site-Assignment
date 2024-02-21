@@ -1,0 +1,315 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+header ul{
+    text-align: center;
+}
+header ul a{
+    display: inline-flex;
+    font-size: 23px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+header p{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section.wel{
+    display:flex;
+    background: rgb(34,132,195);
+background: -moz-linear-gradient(0deg, rgba(34,132,195,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(34,132,195,1) 0%, rgba(0,0,0,1) 100%);
+background: linear-gradient(0deg, rgba(34,132,195,1) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2284c3",endColorstr="#000000",GradientType=1);
+}
+#welimg{
+    border-top-left-radius: 75%;
+    border-bottom-left-radius:1%;
+
+}
+h1{
+    color: white;
+    margin: 0;
+    padding-top: 100;
+    font-size: 50px;
+    
+}
+
+
+
+
+section.sect1{
+    display: flex;
+    background: rgb(13,82,116);
+    background: -moz-linear-gradient(0deg, rgba(13,82,116,1) 0%, rgba(10,92,81,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(13,82,116,1) 0%, rgba(10,92,81,1) 100%);
+    background: linear-gradient(0deg, rgba(13,82,116,1) 0%, rgba(10,92,81,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d5274",endColorstr="#0a5c51",GradientType=1);
+    
+
+}
+section.sect1 div.About-us h2{
+    color: rgb(135, 135, 180);
+    font-size: 35;
+}
+section.sect1 div.About-us{
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10;
+    color: white;
+}
+
+section.sect1 div.ourservices{
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10;
+    color: white;
+}
+
+section.sect1 div.ourservices h2 {
+    color: rgb(135, 135, 180);
+    font-size: 35;
+
+}
+
+section.sect2{
+    display: flex;
+    gap: 70px;
+    padding: 0;
+    margin: 0;
+    background: rgb(7,255,123);
+background: -moz-linear-gradient(0deg, rgba(7,255,123,1) 0%, rgba(34,132,195,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(7,255,123,1) 0%, rgba(34,132,195,1) 100%);
+background: linear-gradient(0deg, rgba(7,255,123,1) 0%, rgba(34,132,195,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07ff7b",endColorstr="#2284c3",GradientType=1);
+}
+section.sect2 div p{
+    padding-top:200px;
+}
+
+
+section.sect2 div img{
+    padding:10px;
+    border-radius: 50%;
+}
+
+section.sect2 div.A {
+    padding-left: 10px;
+
+}
+
+section.sect2 div.B{
+    padding-right: 30px;
+    padding-top:100px ;
+    padding-bottom: 100px;
+}
+
+section.sect3{
+    display: flex;
+    padding-bottom: 20px;
+    gap: 10px;
+    background: rgb(201,251,203);
+background: -moz-linear-gradient(0deg, rgba(201,251,203,1) 0%, rgba(7,255,123,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(201,251,203,1) 0%, rgba(7,255,123,1) 100%);
+background: linear-gradient(0deg, rgba(201,251,203,1) 0%, rgba(7,255,123,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c9fbcb",endColorstr="#07ff7b",GradientType=1);
+
+}
+
+section.sect3 div img{
+    border-radius: 20%;
+}
+
+
+
+section.sect3 div.A {
+    padding-left: 10px;
+    padding-top:100px ;
+
+}
+
+section.sect3 div.B{
+    padding-left: 30px;
+    padding-top:10px ;
+    padding-bottom: 100px;
+}
+
+section.sect4{
+    display: flex;
+    gap: 10px;
+    background: rgb(66,192,188);
+background: -moz-linear-gradient(0deg, rgba(66,192,188,1) 0%, rgba(201,251,203,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(66,192,188,1) 0%, rgba(201,251,203,1) 100%);
+background: linear-gradient(0deg, rgba(66,192,188,1) 0%, rgba(201,251,203,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#42c0bc",endColorstr="#c9fbcb",GradientType=1);
+
+}
+
+
+section.sect4 div img{
+    border-radius: 20%;
+
+}
+
+section.sect4 div.A {
+    padding-left: 10px;
+    padding-top:170px ;
+}
+
+section.sect4 div.B{
+    padding-left: 400px;
+    padding-top:10px ;
+    padding-bottom: 100px;
+}
+
+section.sect5{
+    display: flex;
+    background: rgb(10,92,81);
+background: -moz-linear-gradient(0deg, rgba(10,92,81,1) 0%, rgba(66,192,188,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(10,92,81,1) 0%, rgba(66,192,188,1) 100%);
+background: linear-gradient(0deg, rgba(10,92,81,1) 0%, rgba(66,192,188,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0a5c51",endColorstr="#42c0bc",GradientType=1);
+   
+}
+
+
+section.sect5 div img{
+    border-radius: 30%;
+}
+
+section.sect5 div.A {
+    padding-left: 10px;
+    padding-top: 100px;
+
+}
+
+section.sect5 div.B{
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+
+section.footer{
+    border: solid 1px #0d5274 ;
+    background-color: #0d5274;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 860px){
+    section.wel{
+        display: block;
+        
+    }
+    header p{
+        display: none;
+    }
+    header ul{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 35;
+    }
+
+    section.sect1{
+        display: inline-block;
+    }
+
+    section.sect1 div.About-us{
+        padding-bottom: 100px;
+    }
+
+    section.sect1 div.ourservices{
+        padding-bottom: 70px;
+
+    }
+    section.sect2 div img{
+        width: 90%;
+        align-items: center;
+    }
+    section.sect2{
+        display: inline-block;
+
+    }
+    section.sect3{
+        display: inline-block;
+
+    }
+
+    section.sect3 div img{
+        width: 90%;
+        padding-bottom: 20px;
+    }
+    
+    section.sect4{
+        display: inline-block;
+
+    }
+
+    section.sect4 div img{
+        width: 90%;
+        padding-top: 20px;
+        
+    }
+    section.sect5{
+        display: inline-block;
+
+    }
+    section.sect5 div img{
+        width: 90%;
+    }
+
+    section.sect2 div.B{
+        padding-left: 40px;
+        padding-bottom: 100px;
+        padding-top: 0px;
+    }
+
+    section.sect3 div.B{
+        padding-left: 30px;
+        padding-bottom: 0;
+    }
+    section.sect3 div.A {
+        padding-top:0 ;
+        padding-bottom: 100px;
+    
+    }
+
+    section.sect4 div.B{
+        padding-left: 30px;
+        
+    }
+    section.sect4 div.A {
+        padding-left: 10px;
+        padding-top:0 ;
+        padding-bottom: 0;
+    
+    }
+    
+    section.sect4 div.B{
+        padding-left: 30px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    section.sect5 div.B{
+        padding-left: 35px;
+    }
+}
